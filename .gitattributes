@@ -1,2 +1,3 @@
 artifacts/*.zip filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
+artifacts/Artifact[[:space:]]2[[:space:]]Enhanced.zip filter=lfs diff=lfs merge=lfs -text
