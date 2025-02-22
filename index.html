@@ -1,7 +1,105 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark J. Kocsis Jr. - ePortfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <header>
+        <h1>Mark J. Kocsis Jr. - Professional ePortfolio</h1>
+    </header>
+    
+    <nav>
+        <a href="#self-assessment">Self-Assessment</a>
+        <a href="#artifacts">Artifacts</a>
+        <a href="#code-review-video">Code Review</a>
+    </nav>
+    
+    <section id="self-assessment">
+        <h2>Professional Self-Assessment</h2>
+        <p>My journey through the Computer Science program has been a period of intense individual growth and technical mastery. Through my coursework and the development of various projects, I have honed my ability to design, develop, and enhance complex systems using a range of programming languages and modern tools. This ePortfolio showcases my proficiency in software engineering, encryption, and database management, and serves as a testament to my capacity to learn and adapt in an ever-evolving technical landscape.</p>
+        <p>While my primary projects were completed as individual endeavors, I have actively engaged in collaborative learning environments and have sought feedback from instructors and peers to continually improve my work. This experience has underscored the importance of clear communication with stakeholders, be they academic mentors or potential employers, and taught me how to articulate complex technical ideas in an accessible manner. I have learned that effective communication is essential not only for the success of team projects but also for conveying the value and impact of my work to a broader audience.</p>
+        <p>In addition to technical development, I have placed a strong emphasis on security and best practices throughout my projects. By integrating industry-standard encryption techniques and secure database management practices, I have built solutions that are resilient against common vulnerabilities. My work with modern encryption libraries and parameterized queries is a testament to my dedication to developing secure, reliable software.</p>
+	      <p>One of the cornerstone projects in my portfolio is the Animal Rescue System, which I originally developed in Java during my first year. This project exemplifies my strong grasp of object-oriented design principles and modular programming. I later enhanced this system by converting it from Java to C++, demonstrating not only my versatility across languages but also my ability to manage memory manually, a challenge that deepened my understanding of performance optimization and error handling. By reengineering this system, I learned how to balance the trade-offs inherent in language-specific features, a skill that is critical for designing effective computing solutions.</p>
+	      <p>Another significant project is my encryption program, which was initially built using XOR encryption for simplicity. Recognizing the limitations of this approach, I upgraded the program to use AES encryption via the OpenSSL library. This enhancement required me to delve into the intricacies of cryptographic security, such as proper key management and the importance of initialization vectors. Overcoming the challenges of integrating a third-party library and configuring the development environment not only bolstered the security of the application but also reinforced my ability to troubleshoot and resolve complex dependency issues in a rigorous development setting.</p>
+	      <p>In addition to these projects, I further enhanced the Animal Rescue System by integrating SQLite to replace its original in-memory data storage. This improvement transformed the system into a more scalable and reliable application by implementing structured data storage, parameterized queries, and robust retrieval mechanisms. Through this process, I developed a deeper understanding of database design and the practical considerations of data persistence and integrity. Debugging issues related to data retrieval and handling NULL values pushed me to refine my approach and adopt industry-standard practices, ensuring that the system could manage a growing dataset efficiently and securely.</p>
+	      <p>While my experience has largely been individual, the projects documented in this portfolio reflect a comprehensive range of technical skills that I have developed through dedicated study and practice. They illustrate my competence in software engineering, my ability to implement secure and efficient algorithms, and my proficiency in modern database management techniques. Each artifact not only demonstrates a specific technical capability but also collectively paints a picture of a self-motivated and adaptable computer scientist who is well-prepared to contribute meaningfully in the professional realm.</p>
+	      <p>This ePortfolio is a curated collection of work that spans multiple domains within computer science. It represents my commitment to excellence, continuous learning, and the practical application of advanced technical concepts. As I step forward into the professional world, I am confident that the skills and knowledge reflected in these artifacts set me apart and position me as a strong candidate for roles that require innovation, precision, and a deep understanding of both theoretical and applied computing principles.</p>
+    </section>
+    
+    <section id="artifacts">
+        <h2>Artifacts</h2>
+        
+        <article>
+            <h3>Artifact 1: Animal Rescue System (Java to C++)</h3>
+            <p><a href="https://github.com/Mark19975/Mark19975.github.io/blob/main/artifacts/Artifact%201%20Enhanced.zip" target="_blank">Download Artifact 1</a></p>
+            <p>The Animal Rescue System is a program designed to manage a database of rescue animals, allowing users to intake new animals, display lists categorized by type or availability, and reserve animals for specific tasks. Originally developed in Java during my first year in school, the program uses an object-oriented approach to model animals and their attributes, leveraging modular design principles to ensure maintainability and scalability. This artifact was created as part of my coursework in Southern New Hampshire University’s computer science program, showcasing foundational software design principles and best practices.</p>
+            <p>I selected this artifact for inclusion in my ePortfolio because it highlights my ability to adapt and enhance existing software while demonstrating proficiency in multiple programming languages. This conversion project involved translating the Animal Rescue System from Java to C++, showcasing my versatility and understanding of platform-specific features. Key components of the artifact that showcase my skills include Object-Oriented Design: The program’s architecture, featuring classes such as RescueAnimal, Dog, and Monkey, reflects my understanding of inheritance and polymorphism. Cross-Language Adaptability: The translation process demonstrates my ability to navigate syntactic and conceptual differences between Java and C++. Performance Optimization: Leveraging C++'s memory management features allowed me to enhance the efficiency of data handling. This artifact was improved by restructuring the code to align with C++ standards, adding detailed comments for maintainability, and implementing additional error handling mechanisms to address potential runtime issues.</p>
+	          <p>This enhancement primarily aligns with Course Outcome 3: designing and evaluating computing solutions that solve a problem using algorithmic principles and managing trade-offs in design choices. By reprogramming the application from Java to C++, I evaluated the trade-offs between the languages, such as Java’s garbage collection versus C++'s manual memory management. This project also aligns with Outcome 4 and 5: Demonstrating the use of innovative techniques by leveraging C++ features like direct memory access and efficient data structures; Developing a security mindset through the implementation of secure coding practices, such as input validation and exception handling.</p>
+	          <p>Enhancing and modifying this artifact provided me with valuable learning experiences and insights into software development. One significant challenge was navigating the differences in memory management between Java and C++. While Java’s automatic garbage collection simplifies memory handling, C++ requires explicit allocation and deallocation, which forced careful consideration to avoid memory leaks and ensure program stability. Through this process, I deepened my understanding of language-specific features such as adapting algorithms and structures to suit C++’s strengths.</p>
+        </article>
+        
+        <article>
+            <h3>Artifact 2: Encryption Program (XOR to AES)</h3>
+            <p><a href="https://github.com/Mark19975/Mark19975.github.io/blob/main/artifacts/Artifact%202%20Enhanced.zip" target="_blank">Download Artifact 2</a></p>
+            <p>The encryption program was originally created in August 2024 as part of my CS-405 Secure Coding course. The initial version of the program utilized XOR encryption, which, while simple and effective for certain applications, lacked the robust security measures necessary for modern data protection. Recognizing the need for a more secure encryption method, I enhanced the program by integrating AES encryption using the OpenSSL library. This transition not only improved the security of the application but also introduced me to the complexities of implementing industry-standard cryptographic techniques.</p>
+            <p>I included this artifact in my ePortfolio because it demonstrates my ability to apply secure coding practices and effectively integrate external libraries to enhance security. The artifact highlights my skills in algorithms and data structures, particularly in the areas of encryption, data manipulation, and file handling. The enhancement showcases my ability to work with block ciphers, manage memory safely, and handle exceptions in a structured manner. The improvements made, such as transitioning to AES encryption, implementing key generation using OpenSSL's RAND_bytes function, and refining file handling for encrypted data storage, showcase my capacity to adapt and implement best practices in security.</p>
+	          <p>This enhancement aligns with two key course outcomes. First, it supports Outcome 1, which emphasizes collaboration when integrating external libraries to implement secure encryption. By utilizing OpenSSL, I ensured adherence to security best practices while also learning how to navigate and incorporate third-party libraries effectively. Second, it aligns with Outcome 2, which focuses on effectively communicating technical solutions. Through this project, I gained experience in documenting code with detailed in-line comments, explaining the benefits of AES encryption over XOR encryption, and making these concepts accessible to diverse audiences.</p>
+	          <p>Reflecting on the enhancement process, I gained valuable insights into cryptographic security and the implementation of AES encryption. One of the key lessons I learned was the importance of proper key management and initialization vectors in encryption schemes. I also developed a stronger understanding of error handling when working with cryptographic functions. The biggest challenge I faced was configuring OpenSSL correctly within Visual Studio and ensuring that the necessary dependencies were properly linked. Overcoming this challenge reinforced my troubleshooting skills and my ability to resolve dependency issues in a complex development environment.</p>
+        </article>
+        
+        <article>
+            <h3>Artifact 3: Animal Rescue System (SQLite Integration)</h3>
+            <p><a href="https://github.com/Mark19975/Mark19975.github.io/blob/main/artifacts/Artifact%203%20Enhanced.zip" target="_blank">Download Artifact 3</a></p>
+            <p>The Animal Rescue System is a program designed to manage a database of rescue animals, allowing users to intake new animals, display lists categorized by type or availability, and reserve animals for specific tasks. Originally developed in Java during my first year in school, the program uses an object-oriented approach to model animals and their attributes, leveraging modular design principles to ensure maintainability and scalability. This artifact was created as part of my coursework in Southern New Hampshire University’s computer science program, showcasing foundational software design principles and best practices.</p>
+            <p>I selected this artifact for my ePortfolio because it emphasizes my ability to enhance database functionality within a real-world application. The Animal Rescue System was initially limited to in-memory data storage, restricting its scalability and persistence. By integrating SQLite, I improved data management, ensuring that animal records are stored, retrieved, and managed efficiently. This enhancement showcases my proficiency in database design, structured query implementation, and secure data handling.</p>
+	          <p>The primary improvement involved transitioning the application from in-memory storage to a fully functional SQLite database. I implemented structured tables for storing dog and monkey records, ensuring proper indexing for optimized retrieval. Using parameterized queries and prepared statements improved data security by preventing SQL injection vulnerabilities. The retrieval functions were refined to handle potential NULL values, ensuring that data integrity was maintained when fetching and displaying records. I also introduced a user-interactive menu that allows users to dynamically manage the database, including adding, retrieving, and reserving animals.</p>
+	          <p>This enhancement aligns with Outcome 4: Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals. By integrating SQLite, I applied modern database management techniques to enhance the functionality of the Animal Rescue System. The implementation of efficient data storage and retrieval operations ensured that the system could handle a growing dataset while maintaining performance. Using best practices for secure data transactions reinforced industry-standard coding principles.</p>
+	          <p>Enhancing the database functionality presented several challenges, particularly in ensuring data persistence and retrieval accuracy. One of the biggest hurdles was ensuring that inserted records were properly stored and retrieved, as early implementations resulted in unexpected outputs. Debugging these issues required a deep dive into SQLite’s data retrieval mechanisms, particularly handling NULL values and memory management in C++.</p>
+        </article>
+    </section>
+    
+    <section id="code-review-video">
+        <h2>Code Review Video</h2>
+        <p>Coming soon: A video review of my code and projects. Check back later!</p>
+        <p><a href="#" target="_blank">Placeholder for YouTube Video</a></p>
+    </section>
 </body>
 </html>
